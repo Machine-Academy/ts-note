@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS Note</title>
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <h1>My Notes</h1>
+      <!-- Note Form -->
+      <form data-elm="note-form">
+        <label for="title">Note Title</label>
+        <input type="text" name="title" placeholder="Title" />
+
+        <label for="body">Description</label>
+        <textarea
+          name="body"
+          type="text"
+          placeholder="Note Description..."
+        ></textarea>
+
+        <button>Add Note</button>
+      </form>
+      <!-- End Form -->
+
+      <!-- Notes List -->
+      <div class="note-list" data-elm="note-list"></div>
+      <!-- End Notes List -->
+    </div>
+
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
