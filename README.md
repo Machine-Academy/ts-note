@@ -53,7 +53,7 @@ should behave.
   - Once a new note has been created and added to the page, use the form element [reset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset) method to clear out the form inputs
   - Use the [get](https://developer.mozilla.org/en-US/docs/Web/API/FormData/get) method on the `FormData` object to grab the values of interest. The string provided to the `get` corresponds to the `name` attribute on form fields.
 
-- When selecting DOM nodes TS has no way of knowing if the node exists or not, there for the return type is `Element | undefined`(either a HTML ELement or Undefined). As developers we know more than TS does, use [Non Null Assertion Operator](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator) to tell TypeScript that your DOM nodes exist when you are querying elements off the page.
+- When selecting DOM nodes TS has no way of knowing if the node exists or not, there for the return type is `Element | undefined` (either a HTML Element or Undefined). As developers we know more than TS does, use [Non Null Assertion Operator](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator) to tell TypeScript that your DOM nodes exist when you are querying elements off the page.
 
   NOTE: When querying elements off the page you will need to use `generics` to tell TypeScript what type of element you are querying for. Examples of what this looks like is the following...
 
