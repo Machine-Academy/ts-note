@@ -7,6 +7,21 @@ that you can model data in TypeScript, communicate with the compiler using asser
 work with built in [DOM Interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#dom_interfaces)
 and also use generics to convey to TypeScript the type of DOM nodes you are working with.
 
+## Prerequisites
+
+[Yarn](https://yarnpkg.com/getting-started/install)
+
+## Running the project
+
+This project was created from the [vite vanilla-ts template](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+
+To run the project run the following commands from the project root folder.
+
+```sh
+yarn # install project
+yarn dev # run development server
+```
+
 ## 1. Project Setup
 
 Take a moment to review the project in its current state, taking inventory of already existing items.
